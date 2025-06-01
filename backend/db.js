@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://admin:12ka442ka1@cloudclus.hlbugrd.mongodb.net/shryne?retryWrites=true&w=majority&appName=Cloudclus');
+mongoose.connect('Mongo_URL');
 
 const userSchema = mongoose.Schema({
     username:String,
